@@ -29,7 +29,7 @@
     Using `ssh-keygen` within the client and then copying that key to a '.ssh' folder on the server side will allow us to login without typing in a password every time. In the image is an example of a key that is generated through 'ssh-keygen'.
 
 6. ### Optimizing Remote Running
-    ![image](Lab1Images\step6img.png)  
+    ![image](Lab1Images\step6img2.png)  
 
     There are a number of ways we can make remote running easier.  
     In the above image, there are two runs for copying a local edit to "WhereAmI.java" and then running it on the remote server. In the second run, after edting and saving, it took 6 total keystrokes to copy the file to the remote server and run it on the remote server. Using the up arrow key, I accessed the last commands that were run. For copying with the "scp" command, it took 3 keystrokes. And to run the files, it also took 3 keystrokes. Each time, it took 2 keystrokes of the up arrow to get to the appropriate command and 1 keystroke for the 'enter' key.
