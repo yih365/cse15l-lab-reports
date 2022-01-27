@@ -1,4 +1,5 @@
 
-[test](google.com)
-
-[test2]https://github.com/yih365/markdown-parse
+1) testFile2(MarkdownParseTest)
+java.io.IOException
+        at MarkdownParse.getLinks(MarkdownParse.java:27)
+        at MarkdownParseTest.testFile2(MarkdownParseTest.java:32)
