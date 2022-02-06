@@ -4,6 +4,9 @@
 1. ### Code Change 1
     Input file that gave me this error: [test-file-2](https://github.com/yih365/markdown-parse/blob/main/test-file-2.md)  
 
+    Command: ```javac -cp ".;.\libs\junit-4.13.2.jar;.\libs\hamcrest-core-1.3.jar" MarkdownParseTest.java;
+                java -cp ".;.\libs\junit-4.13.2.jar;.\libs\hamcrest-core-1.3.jar" org.junit.runner.JUnitCore MarkdownParseTest
+                ```  
     Error:  
         ```1) testFile2(MarkdownParseTest)
         java.io.IOException
@@ -18,6 +21,9 @@
 2. ### Code Change 2
     Input file that gave me this error: [test-file-3](https://github.com/yih365/markdown-parse/blob/main/test-file-3.md)  
 
+    Command: ```javac -cp ".;.\libs\junit-4.13.2.jar;.\libs\hamcrest-core-1.3.jar" MarkdownParseTest.java;
+                java -cp ".;.\libs\junit-4.13.2.jar;.\libs\hamcrest-core-1.3.jar" org.junit.runner.JUnitCore MarkdownParseTest
+                ```  
     Error:  
         ```1) testFile3(MarkdownParseTest)
 java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 31      
@@ -35,6 +41,9 @@ java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 31
 3. ### Code Change 3
     Input file that gave me this error: [test-file-5](https://github.com/yih365/markdown-parse/blob/main/test-file-5.md) 
 
+    Command: ```javac -cp ".;.\libs\junit-4.13.2.jar;.\libs\hamcrest-core-1.3.jar" MarkdownParseTest.java;
+                java -cp ".;.\libs\junit-4.13.2.jar;.\libs\hamcrest-core-1.3.jar" org.junit.runner.JUnitCore MarkdownParseTest
+                ```  
     Error:  
         ```1) testFile5(MarkdownParseTest)
         java.lang.AssertionError: expected:<[]> but was:<[page.com]>
