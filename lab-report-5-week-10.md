@@ -12,7 +12,7 @@ I found two tests with different bugs by saving the output of `script.sh` to a `
     ![image](Lab5Images/image2.png)  
     `[]` was the output for my markdown parse while `[url]` was the ouput for the other markdown parse. Neither of these inputs were correct. The expected output is `[my_(url)]`. 
 
-    ![image](Lab5Images/image3.png)
+    ![image](Lab5Images/image3.png)  
     In my code, instead of looking for an open parenthesis after an ending bracket, I could look for a colon after an ending parenthesis and take text between the colon and the next space. So then in the example of `194.md`, we have `[Foo*bar\]]:my_(url)`, and this will return a link of `my_(url)`.
 
 2. Test 2 (22.md)
